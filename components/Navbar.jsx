@@ -61,7 +61,10 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className='border-b border-gray-300 my-4'>
-                            <p className='w-[85%] md:w-[90%] py-4'>Let's build something great together</p>
+                            <p className='w-[85%] md:w-[90%] py-4'>
+                                {/* eslint-disable-next-line react/no-unescaped-entities */}
+                                Let's build something great together
+                            </p>
                         </div>
                     </div>
                     <div className='py-4 flex flex-col'>
@@ -84,6 +87,7 @@ const Navbar = () => {
                         </ul>
                         <div className='pt-40'>
                             <p className='uppercase tracking-widest text-[#429E9D]'>
+                                {/* eslint-disable-next-line react/no-unescaped-entities */}
                                 Let's Connect
                             </p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
