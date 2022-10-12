@@ -9,6 +9,13 @@ const Main = () => {
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         Let's build something great together
                     </p>
+                    <h1 className='py-4 text-gray-700'>
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
+                        Hi, I'm <span className='text-[#429E9D]'> Ilham</span>
+                    </h1>
+                    <h1 className='py-2 text-gray-700'>
+                       A Full-Stack Developer
+                    </h1>
                 </div>
             </div>
         </div>
