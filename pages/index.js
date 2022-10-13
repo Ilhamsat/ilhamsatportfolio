@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from "../components/Navbar";
 import Main from "../components/Main";
+import About from "../components/About";
+import Skills from "../components/Skills";
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,9 +15,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <Navbar/>
-        <Main/>
-
+      <Navbar/>
+      <Main/>
+      <About/>
+      <Skills/>
 
       {/*<footer className={styles.footer}>*/}
       {/*  <a*/}
